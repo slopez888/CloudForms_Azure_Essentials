@@ -13,9 +13,9 @@
     #  when: manageiq is defined
 
 #- name: Perform tasks on instances
-  hosts: azure_hosts
+#  hosts: azure_hosts
   #become: true
   #gather_facts: false
 
-  roles:
-    - role: azure_basic_runonce
+#  roles:
+#    - role: azure_basic_runonce
