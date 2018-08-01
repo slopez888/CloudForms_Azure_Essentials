@@ -18,7 +18,7 @@
   delay: "{{ retry_interval }}"
   #with_items: "{{ azure_created_vms }}"
   with_items: 
-    - {{ azure_created_vms }}
+    - "{{ azure_created_vms }}"
 
 - name: Log lookup_vms_output.results
   debug: 
