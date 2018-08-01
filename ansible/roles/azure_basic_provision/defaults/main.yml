@@ -11,7 +11,7 @@ subnet_cidr: 10.10.0.0/24
 publisher: RedHat
 offer: RHEL
 version: latest
-sku: 7.5
+sku: 7.4
 
 # azure guest parameters
 vm_name: myazurevm1
